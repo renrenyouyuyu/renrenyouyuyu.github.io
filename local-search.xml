@@ -46,7 +46,7 @@
     <link href="/2023/03/31/my-blog-build-remark/"/>
     <url>/2023/03/31/my-blog-build-remark/</url>
     
-    <content type="html"><![CDATA[<p>参考文章<a href="https://xie.infoq.cn/article/ac51ce1f6e9434779c35cbb6c">https://xie.infoq.cn/article/ac51ce1f6e9434779c35cbb6c</a></p><p>觅得一攻略，甚得我意，遂依法搭建之。</p><p>遇到了如下困难：<br>    加载不出样式。</p>]]></content>
+    <content type="html"><![CDATA[<p>参考文章<a href="https://xie.infoq.cn/article/ac51ce1f6e9434779c35cbb6c">https://xie.infoq.cn/article/ac51ce1f6e9434779c35cbb6c</a></p><p>觅得一攻略，甚得我意，遂依法搭建之。</p><p>遇到了如下困难：网站只能加载出文字，却加载不出渲染样式，呈现出大片空白。</p><p>原因：博客并没有放在在github库根目录下project文件夹里，路径有误。（被注释误导<del>……</del>）</p><p>解决办法：url中删去 project。</p>]]></content>
     
     
     
